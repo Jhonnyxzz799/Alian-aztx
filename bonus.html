@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bônus Exclusivo</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    input {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #00c2ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-left: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a {
+      color: #00ff88;
+      font-weight: bold;
+      display: block;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎁 Acesso ao Bônus Supremo</h1>
+  <p>Digite a senha para desbloquear o conteúdo exclusivo:</p>
+  <input type="password" id="senha" placeholder="Digite a senha">
+  <button onclick="verificarSenha()">Entrar</button>
+
+  <script>
+    function verificarSenha() {
+      const senha = document.getElementById('senha').value;
+      if(senha === "ztx9070") {
+        window.location.href = "https://www.mediafire.com/file/fnw9px29ftg92hg/B%C3%94NUS_SUPREMO_%E2%9A%A0%EF%B8%8F%F0%9F%91%91.zip/file";
+      } else {
+        alert("Senha incorreta!");
+      }
+    }
+  </script>
+</body>
+</html>
